@@ -1,0 +1,27 @@
+{
+  "name": "koolpress",
+  "version": "1.0.0",
+  "description": "A kool web framework based on Express, with extra cool stuff",
+  "main": "koolpress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laith-GLaDOS/koolpress.git"
+  },
+  "keywords": [
+    "express",
+    "web",
+    "web-framework",
+    "web-dev",
+    "webdev",
+    "webframework"
+  ],
+  "author": "Laith-GLaDOS",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Laith-GLaDOS/koolpress/issues"
+  },
+  "homepage": "https://github.com/Laith-GLaDOS/koolpress#readme"
+}
