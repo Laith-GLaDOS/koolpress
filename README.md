@@ -2,7 +2,7 @@
 A kool web framework based on Express, with extra cool stuff  
   
 # Docs  
-Not available yet  
+<a href="/docs.md">Docs</a>  
   
 # Features:  
  - Routes with very simple JSON objects  

@@ -2,7 +2,7 @@
   "name": "koolpress",
   "version": "1.0.0",
   "description": "A kool web framework based on Express, with extra cool stuff",
-  "main": "koolpress.mjs",
+  "main": "koolpress.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

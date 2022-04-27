@@ -1,4 +1,4 @@
-import express from 'express';
+const express = require('express');
 const server = express();
 server.use(express.json());
 server.disable('x-powered-by');
@@ -15,12 +15,7 @@ const req_methods_o = {
     PATCH: 9
 };
 
-function middleware_f(handler) {
-    server.use((req, res, next) => {
-        handler(req, res);
-        next();
-    });
-}
+function middleware_f(handler) { server.use(handler); }
 
 function add_routes_f(routes) {
     for (let i = 0; i < routes.length; i++) {
@@ -38,7 +33,7 @@ function add_routes_f(routes) {
 
 function start_listening_f(port, start_msg) { server.listen(port, () => console.log(start_msg)); }
 
-export default {
+module.exports = {
     express_server: server,
     middleware: middleware_f,
     req_methods: req_methods_o,
