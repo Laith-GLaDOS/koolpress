@@ -2,7 +2,7 @@
   "name": "koolpress",
   "version": "1.0.0",
   "description": "A kool web framework based on Express, with extra cool stuff",
-  "main": "koolpress.js",
+  "main": "koolpress.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Laith-GLaDOS/koolpress/issues"
   },
-  "homepage": "https://github.com/Laith-GLaDOS/koolpress#readme"
+  "homepage": "https://github.com/Laith-GLaDOS/koolpress#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  }
 }
